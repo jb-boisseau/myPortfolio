@@ -283,6 +283,7 @@ DEPENDENCIES
   kaminari (~> 1.0, >= 1.0.1)
   listen (~> 3.0.5)
   mini_magick (~> 4.6)
+  nokogiri (>= 1.7.0)
   petergate (~> 1.7)
   pg (~> 0.18)
   pry-byebug

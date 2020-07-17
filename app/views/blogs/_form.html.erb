@@ -11,13 +11,7 @@
 
   <div class="form-group">
     <%= f.label :topic_id %>
-    <%= f.collection_select(:topic_id, Topic.all, :id, :title,
-                              {
-                                include_blank: true
-                              },
-                              class: 'form-control'
-                            )
-    %>
+    <%= f.collection_select(:topic_id, Topic.all, :id, :title,{include_blank: true}, class: 'form-control') %>
   </div>
 
   <div class="form-group">
@@ -29,7 +23,7 @@
   </div>
 
   <div class="form-group">
-    <%= f.text_area :body, class: 'form-control', rows: 15, placeholder: "Content" %>
+    <%= f.text_area :body, class: 'form-control shadow', rows: 15, placeholder: "Content" %>
   </div>
 
   <div class="form-group">
