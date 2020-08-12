@@ -46,3 +46,4 @@ gem "nokogiri", ">= 1.7.0"
 ruby "2.4.0"
 
 gem 'hirb'
+gem 'bundler', '1.3.0'
