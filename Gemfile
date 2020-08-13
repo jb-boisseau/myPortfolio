@@ -41,7 +41,7 @@ gem 'twitter', '~> 6.1'
 gem 'redis', '~> 3.3', '>= 3.3.3'
 gem 'redcarpet', '~> 3.4'
 gem 'coderay', '~> 1.1', '>= 1.1.1'
-gem "nokogiri", ">= 1.7.0"
+gem "nokogiri", ">= 1.10.8"
 
 ruby "2.4.0"
 
